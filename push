@@ -3,9 +3,6 @@
 echo "Input your commit message: "
 read comment
 
-echo "Input file to push"
-read file
-
 git add .
-git commit -m $comment
-git push $file
+git commit -m "$comment"
+git push
